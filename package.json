@@ -16,21 +16,31 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.0.8",
     "@mdx-js/react": "^2.3.0",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-separator": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
     "autoprefixer": "^10.4.15",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "gatsby": "^5.12.4",
     "gatsby-plugin-image": "^3.12.0",
+    "gatsby-plugin-layout": "^4.12.0",
     "gatsby-plugin-mdx": "^5.12.0",
     "gatsby-plugin-netlify-cms": "^7.12.0",
     "gatsby-plugin-postcss": "^6.12.0",
     "gatsby-plugin-sharp": "^5.12.0",
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-transformer-sharp": "^5.12.0",
+    "lucide-react": "^0.284.0",
     "netlify-cms-app": "^2.15.72",
     "postcss": "^8.4.29",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.3"
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^20.3.3",
