@@ -14,7 +14,10 @@ const ResumePage: React.FC<PageProps> = () => {
         <div className="flex justify-between items-center">
           <Heading level="h1">Resume</Heading>
 
-          <Button variant="ghost" className="flex items-center gap-x-1">
+          <Button
+            variant="outline"
+            className="flex items-center gap-x-1 bg-slate-50 border-slate-300"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -38,8 +41,8 @@ const ResumePage: React.FC<PageProps> = () => {
           </Button>
         </div>
         <Paragraph>
-          Below, is a summary of my education, work experience and technology
-          stack. You can also download my resume as a pdf file.
+          Below, is a summary of my education and work experience. You can also
+          download my resume as a pdf file.
         </Paragraph>
         <hr className="my-8" />
 
