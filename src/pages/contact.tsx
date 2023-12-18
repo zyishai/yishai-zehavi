@@ -29,6 +29,7 @@ const ContactPage: React.FC<PageProps> = () => {
           action="https://getform.io/f/e9e08790-440d-489c-bbea-9a6b2efe53d5"
           method="post"
         >
+          <input type="hidden" name="_gotcha" className="!hidden" />
           <div className="grid justify-items-start gap-6">
             <div className="grid w-full max-w-sm items-center gap-2.5">
               <Label htmlFor="name">Full Name *</Label>
